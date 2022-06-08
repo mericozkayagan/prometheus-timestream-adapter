@@ -23,7 +23,7 @@ Usage of ./prometheus-timestream-adapter:
       --listenAddr string       (default ":9201")
       --logLevel string         (default "error")
       --tableName string        (default "prometheus-table")
-      --telemetryPath string    (default "/metric")
+      --telemetryPath string    (default "/metrics")
       --tls                    
       --tlsCert string          (default "tls.cert")
       --tlsKey string           (default "tls.key")
