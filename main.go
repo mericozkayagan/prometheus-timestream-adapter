@@ -90,7 +90,7 @@ func init() {
 	flag.StringVar(&cfg.listenAddr, "listenAddr", ":9201", "")
 	flag.StringVar(&cfg.logLevel, "logLevel", "error", "")
 	flag.StringVar(&cfg.tableName, "tableName", "prometheus-table", "")
-	flag.StringVar(&cfg.telemetryPath, "telemetryPath", "/metric", "")
+	flag.StringVar(&cfg.telemetryPath, "telemetryPath", "/metrics", "")
 	flag.StringVar(&cfg.tlsCert, "tlsCert", "tls.cert", "")
 	flag.StringVar(&cfg.tlsKey, "tlsKey", "tls.key", "")
 
